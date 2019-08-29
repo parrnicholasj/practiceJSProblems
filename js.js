@@ -22,6 +22,12 @@ function updateTime()
 function mult()
 {
 
-  
+  $num1 = document.getElementsByClassName("num1")[0].value;
+  $num2 = document.getElementsByClassName("num2")[0].value;
+  var result = $num1 * $num2;
+  console.log(result);
+  $result = document.getElementsByClassName("result")[0];
+  $result.innerHTML = "the result is: " + result;
+
 
 }
